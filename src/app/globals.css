@@ -16,18 +16,26 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.greenCarBG {
+  background-image: url(../../public//greencar.png);
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.redCarBG {
+  background-image: url(../../public//redcar.png);
 }
+
+.yellowCarBG {
+  background-image: url(../../public//yellowcar.png);
+}
+
+
+.car {
+  width: 40px;
+  height: 40px;
+  top: 50%;
+  left: 18px; 
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -15px 0 0 37px;
+}
+
